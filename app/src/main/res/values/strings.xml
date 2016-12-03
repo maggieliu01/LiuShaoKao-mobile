@@ -13,4 +13,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <string name="main_footslide_home">主页</string>
+    <string name="main_footslide_me">我的</string>
 </resources>

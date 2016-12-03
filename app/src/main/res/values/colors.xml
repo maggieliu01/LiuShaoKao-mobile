@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ccf20010</color>
+    <color name="colorPrimary">#f20010</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="divideLine">#eee</color>
+    <color name="footdivideLine">#c0c0d0</color>
     <color name="backwhite">#cfff</color>
     <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="tabtextcolor">#c0c0d0</color>
 </resources>

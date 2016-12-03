@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lsk.util;
+package com.lsk.util.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -153,6 +153,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 		shouldExpand = a.getBoolean(R.styleable.PagerSlidingTabStrip_pstsShouldExpand, shouldExpand);
 		scrollOffset = a.getDimensionPixelSize(R.styleable.PagerSlidingTabStrip_pstsScrollOffset, scrollOffset);
 		textAllCaps = a.getBoolean(R.styleable.PagerSlidingTabStrip_pstsTextAllCaps, textAllCaps);
+		selectedTabTextColor=a.getColor(R.styleable.PagerSlidingTabStrip_pstSelectedTabTextColor,selectedTabTextColor);
 
 		a.recycle();
 
